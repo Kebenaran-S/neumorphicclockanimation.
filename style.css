@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure Neumorphic Weather Clock</title>
+    <!-- Memanggil file CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Latar Belakang Gambar Dinamis -->
+    <div class="bg-image" id="bgImage"></div>
+    <div class="bg-overlay"></div>
+
+    <!-- Container Header: Tanggal & Cuaca -->
+    <div class="info-container">
+        <div class="date-display" id="dateDisplay">Memuat Tanggal...</div>
+        <div class="weather-display" id="weatherDisplay">Memuat Cuaca...</div>
+    </div>
+
+    <!-- Container Jam -->
+    <div class="clock-wrapper">
+        <div class="clock">
+            <div class="time-group">
+                <div class="strip-container"><div class="strip" id="hr1"></div></div>
+                <div class="strip-container"><div class="strip" id="hr2"></div></div>
+            </div>
+            <div class="time-group">
+                <div class="strip-container"><div class="strip" id="min1"></div></div>
+                <div class="strip-container"><div class="strip" id="min2"></div></div>
+            </div>
+            <div class="time-group">
+                <div class="strip-container"><div class="strip" id="sec1"></div></div>
+                <div class="strip-container"><div class="strip" id="sec2"></div></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Memanggil file JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
